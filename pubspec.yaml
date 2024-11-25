@@ -1,0 +1,51 @@
+name: vscode_test
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+
+dependencies:
+  
+  shared_preferences:
+  percent_indicator:
+  permission_handler: ^10.2.0 #追加部分 
+  go_router: #追加部分
+  flutter_riverpod: #追加部分
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.0 #追加
+  path_provider: 
+  qr_code_scanner:
+  flutter_animate:
+  cupertino_icons: ^1.0.8
+  flutter_nearby_connections: ^1.1.2
+  device_info_plus: ^10.1.2
+  flutter_styled_toast: ^2.2.1
+  flutter_blue_plus: ^1.32.12
+  qr_flutter: ^4.1.0
+  bordered_text: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - images/
+
+  uses-material-design: true
+  fonts:
+    - family: nicoca
+      fonts:
+        - asset: images\nicoca_v2.ttf
+  #https://nicofont.pupu.jp/nicoca.html
+
+
+  
